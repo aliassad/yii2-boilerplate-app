@@ -28,7 +28,6 @@
   },
   "require": {
     "php": ">=7.1.0",
-    "ext-intl": "*",
     "ext-gd": "*",
     "yiisoft/yii2": "^2.0.13",
     "yiisoft/yii2-swiftmailer": "^2.0.0",
@@ -75,7 +74,10 @@
   },
   "config": {
     "process-timeout": 1800,
-    "optimize-autoloader": true
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
   },
   "repositories": [
     {

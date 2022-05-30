@@ -116,7 +116,6 @@ $logEntries[] = [
                             '.Html::img(Yii::$app->user->identity->userProfile->getAvatar('/img/anonymous.png'), ['class' => ['img-circle', 'elevation-2', 'bg-white'], 'alt' => 'User image']).'
                             <p>
                                 '.Yii::$app->user->identity->publicIdentity.'
-                                <small>'.Yii::t('backend', 'Member since {0, date, short}', Yii::$app->user->identity->created_at).'</small>
                             </p>
                         </li>
                         <!-- Menu Footer-->
