@@ -1,35 +1,10 @@
 # Yii 2 Starter Kit
-
-<!-- BADGES/ -->
-
-[![Packagist](https://img.shields.io/packagist/v/yii2-starter-kit/yii2-starter-kit.svg)](https://packagist.org/packages/yii2-starter-kit/yii2-starter-kit)
-[![Packagist](https://img.shields.io/packagist/dt/yii2-starter-kit/yii2-starter-kit.svg)](https://packagist.org/packages/yii2-starter-kit/yii2-starter-kit)
-[![build](https://github.com/yii-starter-kit/yii2-starter-kit/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/yii-starter-kit/yii2-starter-kit/actions/workflows/main.yml)
-
-<!-- /BADGES -->
-
-# Stand with Ukraine!
-
----
-<p align="center">
-   <img align="center" src="https://github.blog/wp-content/uploads/2022/03/1200x630-GitHub-1.png?resize=320%2C240">
-</p>
-
-While Russia is destroying my home and my country, killing my friends and neighbors - any russian company, organization, or citizen, who do nothing about it, 
-is prohibited from using this package.
-For others - please, pray for us, share information about war crimes Russia is conducting in Ukraine, do everything you can
-to urge your governments to be on the right side of history.
-Ukraine will prevail! Good triumph over evil! Русский военный корабль, иди нах#й!
-
 ---
 This is Yii2 start application template.
 
 It was created and developing as a fast start for building an advanced sites based on Yii2.
 
 It covers typical use cases for a new project and will help you not to waste your time doing the same work in every project
-
-## Before you start
-Please, consider helping project via [contributions](https://github.com/yii2-starter-kit/yii2-starter-kit/issues) or [donations](#donations).
 
 ## TABLE OF CONTENTS
 - [Demo](#demo)
@@ -106,7 +81,6 @@ To list all available development tasks follow these steps:
 - Built-in queue component [yiisoft/yii2-queue](https://github.com/yiisoft/yii2-queue)
 - Command Bus with queued and async tasks support [trntv/yii2-command-bus](https://github.com/trntv/yii2-command-bus)
 - `ExtendedMessageController` with ability to replace source code language and migrate messages between message sources
-- [Some useful shortcuts](https://github.com/yii2-starter-kit/yii2-starter-kit/blob/master/common/helpers.php)
 
 ### Other
 - Useful behaviors (GlobalAccessBehavior, CacheInvalidateBehavior)
@@ -146,9 +120,6 @@ Password: user
 
 ## How to contribute?
 You can contribute in any way you want. Any help appreciated, but most of all i need help with docs (^_^)
-
-## Have any questions?
-Mail to [victor@vgr.cl](mailto:victor@vgr.cl) or [yevhen.terentiev@gmail.com](mailto:yevhen.terentiev@gmai.com)
 
 ## READ MORE
 - [Yii2](https://github.com/yiisoft/yii2/tree/master/docs)

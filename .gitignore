@@ -1,6 +1,6 @@
 # Env
 /.env
-
+/.github
 # Composer
 /vendor
 composer.phar
