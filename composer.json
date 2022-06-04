@@ -1,6 +1,6 @@
 {
   "name": "yii2-starter-kit/yii2-starter-kit",
-  "description": "Yii2 Starter Kit Application Template",
+  "description": "Security Management System",
   "keywords": [
     "yii2",
     "framework",
@@ -56,7 +56,8 @@
     "trntv/sitemaped": "^0.1",
     "yii2mod/yii2-swagger": "^1.1",
     "rmrevin/yii2-fontawesome": "^3.4",
-    "kartik-v/yii2-widgets": "^3.4"
+    "kartik-v/yii2-widgets": "^3.4",
+    "kartik-v/yii2-detail-view": "*"
   },
   "require-dev": {
     "yiisoft/yii2-gii": "^2.0.0",

@@ -101,3 +101,11 @@ function getDataProviderSummary($dataProvider, $options = [])
         ]), $options);
     }
 }
+
+function calHours($time1,$time2){
+    $diff = abs(strtotime($time1) - strtotime($time2));
+    $tmins = $diff/60;
+    $hours = floor($tmins/60);
+    $mins = $tmins%60;
+    return "<b>$hours</b>h,<b>$mins</b>min</b>";
+}
