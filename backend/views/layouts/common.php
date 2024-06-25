@@ -228,28 +228,10 @@ $logEntries[] = [
 //                            'active' => Yii::$app->controller->id === 'page',
 //                        ],
                         [
-                            'label' => Yii::t('backend', 'Guards'),
-                            'url' => ['/content/guard/index'],
-                            'icon' => FAR::icon('users', ['class' => ['nav-icon fa']]),
-                            'active' => Yii::$app->controller->id === 'guard',
-                        ],
-                        [
                             'label' => Yii::t('backend', 'Clients'),
                             'url' => ['/content/client/index'],
                             'icon' => FAR::icon('building', ['class' => ['nav-icon fa']]),
                             'active' => Yii::$app->controller->id === 'client',
-                        ],
-                        [
-                            'label' => Yii::t('backend', 'Assignments'),
-                            'url' => ['/content/assignment/index'],
-                            'icon' => FAR::icon('history', ['class' => ['nav-icon fa']]),
-                            'active' => Yii::$app->controller->id === 'assignment',
-                        ],
-                        [
-                            'label' => Yii::t('backend', 'Guards Shifts'),
-                            'url' => ['/content/shift/index'],
-                            'icon' => FAR::icon('clock', ['class' => ['nav-icon fa']]),
-                            'active' => Yii::$app->controller->id === 'shift',
                         ],
 //                        [
 //                            'label' => Yii::t('backend', 'Articles'),
